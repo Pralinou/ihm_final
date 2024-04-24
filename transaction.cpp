@@ -3,9 +3,10 @@
 
 Transaction::Transaction(QWidget *parent)
     : QWidget(parent),
-      originAccountLineEdit(new QLineEdit),
       destinationAccountLineEdit(new QLineEdit),
       amountLineEdit(new QLineEdit),
+      currentAccountButton(new QRadioButton(tr("Compte courant"))),
+      livretAButton(new QRadioButton(tr("Livret A"))),
       validateButton(new QPushButton(tr("Valider"))),
       cancelButton(new QPushButton(tr("Annuler")))
 {
@@ -19,14 +20,13 @@ void Transaction::setupUI()
 {
     QLabel *titleLabel = new QLabel(tr("VIREMENT"));
 
-    QLabel *originLabel = new QLabel(tr("Depuis quel compte ?"));
     QLabel *destinationLabel = new QLabel(tr("Vers"));
     QLabel *amountLabel = new QLabel(tr("Montant"));
 
     QVBoxLayout *mainLayout = new QVBoxLayout;
     mainLayout->addWidget(titleLabel);
-    mainLayout->addWidget(originLabel);
-    mainLayout->addWidget(originAccountLineEdit);
+    mainLayout->addWidget(currentAccountButton); // Ajouter le bouton radio "Compte courant"
+    mainLayout->addWidget(livretAButton);        // Ajouter le bouton radio "Livret A"
     mainLayout->addWidget(destinationLabel);
     mainLayout->addWidget(destinationAccountLineEdit);
     mainLayout->addWidget(amountLabel);

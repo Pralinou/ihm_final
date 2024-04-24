@@ -7,6 +7,7 @@
 #include <QPushButton>
 #include <QVBoxLayout>
 #include <QLabel>
+#include <QRadioButton> // Ajout de cet en-tête pour les boutons radio
 
 class Transaction : public QWidget
 {
@@ -16,9 +17,11 @@ public:
     Transaction(QWidget *parent = nullptr);
 
 private:
-    QLineEdit *originAccountLineEdit;
     QLineEdit *destinationAccountLineEdit;
     QLineEdit *amountLineEdit;
+
+    QRadioButton *currentAccountButton; // Bouton radio "Compte courant"
+    QRadioButton *livretAButton;        // Bouton radio "Livret A"
 
     QPushButton *validateButton; // Bouton "Valider"
     QPushButton *cancelButton;   // Bouton "Annuler"
