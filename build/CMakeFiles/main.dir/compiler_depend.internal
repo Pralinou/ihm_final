@@ -740,6 +740,8 @@ CMakeFiles/main.dir/historique.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
 
 CMakeFiles/main.dir/login.cpp.o
  /home/user/ihm/login.cpp
@@ -1479,6 +1481,13 @@ CMakeFiles/main.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
+ /home/user/ihm/transaction.hpp
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 
 CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o
  /home/user/ihm/build/main_autogen/mocs_compilation.cpp
@@ -1856,15 +1865,11 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
  /home/user/ihm/build/main_autogen/EWIEGA46WW/moc_transaction.cpp
  /home/user/ihm/transaction.hpp
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFormLayout
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qformlayout.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 
 CMakeFiles/main.dir/mainwindows.cpp.o

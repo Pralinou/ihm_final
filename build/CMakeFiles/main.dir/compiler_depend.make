@@ -737,7 +737,9 @@ CMakeFiles/main.dir/historique.cpp.o: ../historique.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
 
 CMakeFiles/main.dir/login.cpp.o: ../login.cpp \
   /usr/include/stdc-predef.h \
@@ -1474,7 +1476,14 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
+  ../transaction.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 
 CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: main_autogen/mocs_compilation.cpp \
   /usr/include/stdc-predef.h \
@@ -1851,15 +1860,11 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: main_autogen/mocs_compi
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
   main_autogen/EWIEGA46WW/moc_transaction.cpp \
   ../transaction.hpp \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFormLayout \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qformlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 
 CMakeFiles/main.dir/mainwindows.cpp.o: ../mainwindows.cpp \
@@ -2557,13 +2562,11 @@ CMakeFiles/main.dir/transaction.cpp.o: ../transaction.cpp \
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:
 
-../transaction.cpp:
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFormLayout:
 
-../transaction.hpp:
+../transaction.cpp:
 
 main_autogen/EWIEGA46WW/moc_transaction.cpp:
 
@@ -2574,6 +2577,8 @@ main_autogen/EWIEGA46WW/moc_transaction.cpp:
 main_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 main_autogen/mocs_compilation.cpp:
+
+../transaction.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h:
 

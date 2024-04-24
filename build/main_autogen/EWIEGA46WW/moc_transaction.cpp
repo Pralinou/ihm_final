@@ -21,29 +21,29 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_TransactionForm_t {
+struct qt_meta_stringdata_Transaction_t {
     QByteArrayData data[4];
     char stringdata0[47];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_TransactionForm_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_Transaction_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_TransactionForm_t qt_meta_stringdata_TransactionForm = {
+static const qt_meta_stringdata_Transaction_t qt_meta_stringdata_Transaction = {
     {
-QT_MOC_LITERAL(0, 0, 15), // "TransactionForm"
-QT_MOC_LITERAL(1, 16, 14), // "validerClicked"
-QT_MOC_LITERAL(2, 31, 0), // ""
-QT_MOC_LITERAL(3, 32, 14) // "annulerClicked"
+QT_MOC_LITERAL(0, 0, 11), // "Transaction"
+QT_MOC_LITERAL(1, 12, 17), // "onValidateClicked"
+QT_MOC_LITERAL(2, 30, 0), // ""
+QT_MOC_LITERAL(3, 31, 15) // "onCancelClicked"
 
     },
-    "TransactionForm\0validerClicked\0\0"
-    "annulerClicked"
+    "Transaction\0onValidateClicked\0\0"
+    "onCancelClicked"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_TransactionForm[] = {
+static const uint qt_meta_data_Transaction[] = {
 
  // content:
        8,       // revision
@@ -67,46 +67,46 @@ static const uint qt_meta_data_TransactionForm[] = {
        0        // eod
 };
 
-void TransactionForm::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void Transaction::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        auto *_t = static_cast<TransactionForm *>(_o);
+        auto *_t = static_cast<Transaction *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->validerClicked(); break;
-        case 1: _t->annulerClicked(); break;
+        case 0: _t->onValidateClicked(); break;
+        case 1: _t->onCancelClicked(); break;
         default: ;
         }
     }
     (void)_a;
 }
 
-QT_INIT_METAOBJECT const QMetaObject TransactionForm::staticMetaObject = { {
-    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_TransactionForm.data,
-    qt_meta_data_TransactionForm,
+QT_INIT_METAOBJECT const QMetaObject Transaction::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_Transaction.data,
+    qt_meta_data_Transaction,
     qt_static_metacall,
     nullptr,
     nullptr
 } };
 
 
-const QMetaObject *TransactionForm::metaObject() const
+const QMetaObject *Transaction::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *TransactionForm::qt_metacast(const char *_clname)
+void *Transaction::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_TransactionForm.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_Transaction.stringdata0))
         return static_cast<void*>(this);
-    return QObject::qt_metacast(_clname);
+    return QWidget::qt_metacast(_clname);
 }
 
-int TransactionForm::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int Transaction::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QObject::qt_metacall(_c, _id, _a);
+    _id = QWidget::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
