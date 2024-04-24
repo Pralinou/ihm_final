@@ -76,6 +76,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/user/ihm/create_account.hpp",
+			"MU",
+			"EWIEGA46WW/moc_create_account.cpp",
+			null
+		],
+		[
 			"/home/user/ihm/historique.hpp",
 			"MU",
 			"EWIEGA46WW/moc_historique.cpp",
@@ -145,6 +151,7 @@
 	"SETTINGS_FILE" : "/home/user/ihm/build/CMakeFiles/main_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/user/ihm/create_account.cpp", "MU", null ],
 		[ "/home/user/ihm/historique.cpp", "MU", null ],
 		[ "/home/user/ihm/login.cpp", "MU", null ],
 		[ "/home/user/ihm/main.cpp", "MU", null ],

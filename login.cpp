@@ -15,7 +15,7 @@ LoginWindow::LoginWindow(QWidget *parent) : QWidget(parent) {
     QLineEdit *idLineEdit = new QLineEdit();
     QLineEdit *passwordLineEdit = new QLineEdit();
     QPushButton *loginButton = new QPushButton("Se connecter");
-    QPushButton *createAccount = new QPushButton("Crée un compte");
+    QPushButton *createAccountButton = new QPushButton("Crée un compte");
 
     // Masquer le mot de passe (afficher des points à la place)
     passwordLineEdit->setEchoMode(QLineEdit::Password);
@@ -28,14 +28,18 @@ LoginWindow::LoginWindow(QWidget *parent) : QWidget(parent) {
     layout->addWidget(passwordLabel);
     layout->addWidget(passwordLineEdit);
     layout->addWidget(loginButton);
-    layout->addWidget(createAccount);
+    layout->addWidget(createAccountButton);
 
     // Définir le layout pour cette fenêtre
     setLayout(layout);
 
     // Connecter le clic du bouton à la fonction d'authentification
     connect(loginButton, &QPushButton::clicked, this, &LoginWindow::authenticate);
-    connect(createAccount, &QPushButton::clicked, this, &LoginWindow::createAccount);
+    //connect(createAccount, &QPushButton::clicked, this, &LoginWindow::createAccount);
+    CreateAccount *createAccount = new CreateAccount();
+    // Dans votre constructeur de LoginWindow (ou ailleurs selon votre logique)
+    
+
 }
 
 void LoginWindow::authenticate() {
@@ -46,4 +50,8 @@ void LoginWindow::authenticate() {
 
 void LoginWindow::createAccount() {
     qDebug("Création de compte...");
+    
+
+    // Affichez la fenêtre de création de compte (vous devrez peut-être ajouter du code pour afficher la fenêtre)
+    createAccountWidget->show();
 }

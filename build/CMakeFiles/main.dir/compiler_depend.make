@@ -592,12 +592,6 @@ CMakeFiles/main.dir/login.cpp.o: ../login.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
   ../create_account.hpp \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
@@ -611,10 +605,31 @@ CMakeFiles/main.dir/login.cpp.o: ../login.cpp \
   /usr/include/c++/11/variant \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 
 CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
   /usr/include/stdc-predef.h \
@@ -950,7 +965,36 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  ../create_account.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
 
 CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: main_autogen/mocs_compilation.cpp \
   /usr/include/stdc-predef.h \
@@ -1277,13 +1321,43 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: main_autogen/mocs_compi
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  ../create_account.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /usr/include/c++/11/variant \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
   main_autogen/EWIEGA46WW/moc_mainwindow.cpp \
   ../mainwindow.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
 
 CMakeFiles/main.dir/mainwindows.cpp.o: ../mainwindows.cpp \
   /usr/include/stdc-predef.h \
@@ -1850,8 +1924,6 @@ CMakeFiles/main.dir/transaction.cpp.o: ../transaction.cpp \
 
 ../transaction.cpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:
 
 ../mainwindow.hpp:
@@ -1859,8 +1931,6 @@ CMakeFiles/main.dir/transaction.cpp.o: ../transaction.cpp \
 main_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 main_autogen/mocs_compilation.cpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h:
 
@@ -1872,7 +1942,31 @@ main_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h:
 
@@ -1893,10 +1987,6 @@ main_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h:
 
@@ -1949,6 +2039,8 @@ main_autogen/EWIEGA46WW/moc_login.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h:
 
@@ -2342,6 +2434,8 @@ main_autogen/EWIEGA46WW/moc_login.cpp:
 
 /usr/include/pthread.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h:
+
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/c++/11/bits/postypes.h:
@@ -2349,6 +2443,8 @@ main_autogen/EWIEGA46WW/moc_login.cpp:
 /usr/include/c++/11/vector:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
@@ -2387,6 +2483,8 @@ main_autogen/EWIEGA46WW/moc_login.cpp:
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QList:
 
@@ -2513,6 +2611,8 @@ main_autogen/EWIEGA46WW/moc_login.cpp:
 /usr/include/c++/11/ext/string_conversions.h:
 
 /usr/include/c++/11/bits/exception_ptr.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h:
 

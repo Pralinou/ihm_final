@@ -2,6 +2,7 @@
 #define LOGINWINDOW_H
 
 #include <QWidget>
+#include "create_account.hpp"
 
 class LoginWindow : public QWidget
 {
@@ -13,9 +14,10 @@ public:
     void authenticate();
     void createAccount();
 
-signals:
+private:
+    CreateAccount *createAccountWidget;
 
-public slots:
+
 
 };
 

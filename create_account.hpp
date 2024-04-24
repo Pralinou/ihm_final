@@ -12,8 +12,9 @@ class CreateAccount : public QWidget {
 public:
     explicit CreateAccount(QWidget *parent = nullptr);
 
-private slots:
+public slots:
     void createAccountClicked();
+    
 
 private:
     // Déclarations des widgets supplémentaires

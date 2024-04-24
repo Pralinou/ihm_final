@@ -17,6 +17,7 @@ set(SOURCES
     main.cpp
     mainwindows.cpp
     transaction.cpp
+    create_account.cpp
     
 )
 
@@ -26,6 +27,7 @@ set(HEADERS
     login.hpp
     mainwindow.hpp
     transaction.hpp
+    create_account.hpp
 )
 
 
