@@ -1,4 +1,5 @@
 #include "login.hpp"
+#include "create_account.hpp"
 #include <QVBoxLayout>
 #include <QLabel>
 #include <QLineEdit>
@@ -34,6 +35,7 @@ LoginWindow::LoginWindow(QWidget *parent) : QWidget(parent) {
 
     // Connecter le clic du bouton à la fonction d'authentification
     connect(loginButton, &QPushButton::clicked, this, &LoginWindow::authenticate);
+    connect(createAccount, &QPushButton::clicked, this, &LoginWindow::createAccount);
 }
 
 void LoginWindow::authenticate() {
@@ -42,6 +44,6 @@ void LoginWindow::authenticate() {
     qDebug("Tentative d'authentification...");
 }
 
-
-
-
+void LoginWindow::createAccount() {
+    qDebug("Création de compte...");
+}

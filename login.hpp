@@ -11,6 +11,7 @@ public:
     explicit LoginWindow(QWidget *parent = nullptr);
 
     void authenticate();
+    void createAccount();
 
 signals:
 

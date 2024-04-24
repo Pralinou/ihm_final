@@ -1,27 +1,51 @@
 #include "create_account.hpp"
 #include <QPushButton>
 #include <QVBoxLayout>
+#include <QLabel>
+#include <QLineEdit>
+#include <QComboBox>
 #include <iostream>
 
 CreateAccount::CreateAccount(QWidget *parent) : QWidget(parent) {
     // Initialisation de l'interface graphique de la page de création de compte
 
     // Création des widgets
-    QPushButton *createAccountButton = new QPushButton("Créer un compte");
+    QLabel *titleLabel = new QLabel("CREER UN COMPTE");
+    QLabel *infoLabel = new QLabel("Veuillez renseigner les informations suivantes:");
+    
+    QLabel *accountTypeLabel = new QLabel("Type de compte");
+    QComboBox *accountTypeComboBox = new QComboBox();
+    
+    QLabel *accountOwnerLabel = new QLabel("Propriétaire du compte");
+    QLineEdit *accountOwnerLineEdit = new QLineEdit();
+    
+    QPushButton *validateButton = new QPushButton("Valider");
+    QPushButton *cancelButton = new QPushButton("Annuler");
 
     // Création du layout
     QVBoxLayout *layout = new QVBoxLayout();
-    layout->addWidget(createAccountButton);
+    
+    layout->addWidget(titleLabel);
+    layout->addWidget(infoLabel);
+    
+    layout->addWidget(accountTypeLabel);
+	layout->addWidget(accountTypeComboBox);
+	
+	layout->addWidget(accountOwnerLabel);
+	layout->addWidget(accountOwnerLineEdit);
 
-    // Définir le layout pour cette fenêtre
-    setLayout(layout);
+	layout->addWidget(validateButton);
+	layout->addWidget(cancelButton);
 
-    // Connecter le clic du bouton "Créer un compte" à la fonction createAccountClicked
-    connect(createAccountButton, &QPushButton::clicked, this, &CreateAccount::createAccountClicked);
+	// Définir le layout pour cette fenêtre
+	setLayout(layout);
+
+	// Connecter le clic du bouton "Valider" à la fonction createAccountClicked
+	connect(validateButton, &QPushButton::clicked, this, &CreateAccount::createAccountClicked);
 }
 
 void CreateAccount::createAccountClicked() {
-    // Méthode appelée lorsque l'utilisateur clique sur "Créer un compte"
-    std::cout << "Traitement de la création de compte..." << std::endl;
-    // Ajoutez ici la logique pour gérer la création de compte
+	// Méthode appelée lorsque l'utilisateur clique sur "Valider"
+	std::cout << "Traitement de la création de compte..." << std::endl;
+	// Ajoutez ici la logique pour gérer la création de compte
 }
