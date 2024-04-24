@@ -14,6 +14,7 @@ LoginWindow::LoginWindow(QWidget *parent) : QWidget(parent) {
     QLineEdit *idLineEdit = new QLineEdit();
     QLineEdit *passwordLineEdit = new QLineEdit();
     QPushButton *loginButton = new QPushButton("Se connecter");
+    QPushButton *createAccount = new QPushButton("Crée un compte");
 
     // Masquer le mot de passe (afficher des points à la place)
     passwordLineEdit->setEchoMode(QLineEdit::Password);
@@ -26,6 +27,7 @@ LoginWindow::LoginWindow(QWidget *parent) : QWidget(parent) {
     layout->addWidget(passwordLabel);
     layout->addWidget(passwordLineEdit);
     layout->addWidget(loginButton);
+    layout->addWidget(createAccount);
 
     // Définir le layout pour cette fenêtre
     setLayout(layout);
