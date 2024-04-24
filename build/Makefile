@@ -142,6 +142,30 @@ main_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_autogen.dir/build.make CMakeFiles/main_autogen.dir/build
 .PHONY : main_autogen/fast
 
+accueil_user.o: accueil_user.cpp.o
+.PHONY : accueil_user.o
+
+# target to build an object file
+accueil_user.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/accueil_user.cpp.o
+.PHONY : accueil_user.cpp.o
+
+accueil_user.i: accueil_user.cpp.i
+.PHONY : accueil_user.i
+
+# target to preprocess a source file
+accueil_user.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/accueil_user.cpp.i
+.PHONY : accueil_user.cpp.i
+
+accueil_user.s: accueil_user.cpp.s
+.PHONY : accueil_user.s
+
+# target to generate assembly for a file
+accueil_user.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/accueil_user.cpp.s
+.PHONY : accueil_user.cpp.s
+
 create_account.o: create_account.cpp.o
 .PHONY : create_account.o
 
@@ -320,6 +344,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... main_autogen"
 	@echo "... main"
+	@echo "... accueil_user.o"
+	@echo "... accueil_user.i"
+	@echo "... accueil_user.s"
 	@echo "... create_account.o"
 	@echo "... create_account.i"
 	@echo "... create_account.s"
