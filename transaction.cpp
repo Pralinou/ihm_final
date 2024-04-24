@@ -1,4 +1,4 @@
-
+// transaction.cpp
 #include "transaction.hpp"
 
 Transaction::Transaction(QWidget *parent)
@@ -20,7 +20,7 @@ void Transaction::setupUI()
     QLabel *titleLabel = new QLabel(tr("VIREMENT"));
 
     QLabel *originLabel = new QLabel(tr("Depuis quel compte ?"));
-    QLabel *destinationLabel = new QLabel(tr("Affichage auto en fonction du choix du compte."));
+    QLabel *destinationLabel = new QLabel(tr("Vers"));
     QLabel *amountLabel = new QLabel(tr("Montant"));
 
     QVBoxLayout *mainLayout = new QVBoxLayout;
