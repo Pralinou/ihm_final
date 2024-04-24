@@ -33,9 +33,10 @@ set(HEADERS
 
 # Find the QtWidgets package
 find_package(Qt5Widgets REQUIRED)
+qt5_wrap_ui(UI_HEADERS transferwidget.ui) 
 
 # Ajouter l'exécutable
-add_executable(main ${SOURCES} ${HEADERS})
+add_executable(main ${SOURCES} ${HEADERS} ${UI_HEADERS})
 
 
 # Use the Widgets module from Qt5

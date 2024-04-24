@@ -1,16 +1,23 @@
+// transaction.cpp
+
 #include "transaction.hpp"
+#include <QDebug>
 
-Transaction::Transaction(const QString &fromAccount, const QString &toAccount, double amount) : 
-    m_fromAccount(fromAccount), m_toAccount(toAccount), m_amount(amount) {}
-
-QString Transaction::getFromAccount() const {
-    return m_fromAccount;
+TransactionForm::TransactionForm(QObject *parent) : QObject(parent) {
+    // Initialisation des widgets et des signaux/slots
+    // ...
 }
 
-QString Transaction::getToAccount() const {
-    return m_toAccount;
+void TransactionForm::showWindow() {
+    window.show();
 }
 
-double Transaction::getAmount() const {
-    return m_amount;
+void TransactionForm::validerClicked() {
+    // Traitement des données lors de la validation
+    qDebug() << "Transaction validée !";
+}
+
+void TransactionForm::annulerClicked() {
+    // Réinitialisation des champs lors de l'annulation
+    qDebug() << "Transaction annulée.";
 }

@@ -35,9 +35,9 @@ LoginWindow::LoginWindow(QWidget *parent) : QWidget(parent) {
 
     // Connecter le clic du bouton à la fonction d'authentification
     connect(loginButton, &QPushButton::clicked, this, &LoginWindow::authenticate);
-    //connect(createAccount, &QPushButton::clicked, this, &LoginWindow::createAccount);
+    connect(createAccountButton, &QPushButton::clicked, this, &LoginWindow::createAccount);
     CreateAccount *createAccount = new CreateAccount();
-    // Dans votre constructeur de LoginWindow (ou ailleurs selon votre logique)
+    
     
 
 }
@@ -50,8 +50,5 @@ void LoginWindow::authenticate() {
 
 void LoginWindow::createAccount() {
     qDebug("Création de compte...");
-    
 
-    // Affichez la fenêtre de création de compte (vous devrez peut-être ajouter du code pour afficher la fenêtre)
-    createAccountWidget->show();
 }

@@ -140,7 +140,7 @@
 	],
 	"MOC_PREDEFS_FILE" : "/home/user/ihm/build/main_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : [ "/home/user/ihm/build/ui_transferwidget.h" ],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
 	"PARSE_CACHE_FILE" : "/home/user/ihm/build/CMakeFiles/main_autogen.dir/ParseCache.txt",
@@ -160,7 +160,7 @@
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [],
+	"UIC_SKIP" : [ "/home/user/ihm/build/ui_transferwidget.h" ],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
 }

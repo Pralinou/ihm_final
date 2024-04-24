@@ -1,16 +1,18 @@
 #ifndef HISTORIQUE_HPP
 #define HISTORIQUE_HPP
 
-#include <QList>
-#include "transaction.hpp"
+#include <QWidget>
+#include <QTableWidget>
 
-class History {
+class Historique : public QWidget
+{
+    Q_OBJECT
+
 public:
-    void addTransaction(const Transaction &transaction);
-    QList<Transaction> getTransactions() const;
+    Historique(QWidget *parent = nullptr);
 
 private:
-    QList<Transaction> m_transactions;
+    QTableWidget *table;
 };
 
-#endif 
+#endif // HISTORIQUE_HPP

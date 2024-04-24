@@ -1,20 +1,34 @@
+// transaction.hpp
+
 #ifndef TRANSACTION_HPP
 #define TRANSACTION_HPP
 
-#include <QString>
+#include <QObject>
+#include <QFormLayout>
+#include <QLineEdit>
+#include <QPushButton>
+#include <QLabel>
+#include <QWidget>
 
-class Transaction {
+class TransactionForm : public QObject {
+    Q_OBJECT
+
 public:
-    Transaction(const QString &fromAccount, const QString &toAccount, double amount);
+    explicit TransactionForm(QObject *parent = nullptr);
+    void showWindow();
 
-    QString getFromAccount() const;
-    QString getToAccount() const;
-    double getAmount() const;
+private slots:
+    void validerClicked();
+    void annulerClicked();
 
 private:
-    QString m_fromAccount;
-    QString m_toAccount;
-    double m_amount;
+    QWidget window;
+    QLineEdit *lineEditCompteCourant;
+    QLineEdit *lineEditLivretC;
+    QLineEdit *lineEditDestinataire;
+    QLineEdit *lineEditMontant;
+    QPushButton *buttonValider;
+    QPushButton *buttonAnnuler;
 };
 
 #endif // TRANSACTION_HPP
