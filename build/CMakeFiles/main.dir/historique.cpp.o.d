@@ -308,4 +308,6 @@ CMakeFiles/main.dir/historique.cpp.o: /home/user/ihm/historique.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
