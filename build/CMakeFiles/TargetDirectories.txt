@@ -1,0 +1,4 @@
+/home/user/ihm/build/CMakeFiles/main.dir
+/home/user/ihm/build/CMakeFiles/edit_cache.dir
+/home/user/ihm/build/CMakeFiles/rebuild_cache.dir
+/home/user/ihm/build/CMakeFiles/main_autogen.dir
