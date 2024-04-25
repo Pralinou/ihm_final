@@ -35,6 +35,7 @@ private:
     double savingAccountBalance; // Solde du compte d'épargne
 
     void updateCurrentBalanceLabel();
+    void updateSavingBalanceLabel();
 };
 
 #endif 
