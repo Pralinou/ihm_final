@@ -4,10 +4,11 @@
 #include "transaction.hpp"
 #include "accueil_user.hpp"
 #include "accueil_employe.hpp"
+#include "accueil_directeur.hpp"
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
-    AccueilEmployee AccueilEmployee;
-    AccueilEmployee.show();
+    AccueilDirecteur AccueilDirecteur;
+    AccueilDirecteur.show();
     return a.exec();
 }

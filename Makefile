@@ -142,6 +142,30 @@ main_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_autogen.dir/build.make CMakeFiles/main_autogen.dir/build
 .PHONY : main_autogen/fast
 
+accueil_directeur.o: accueil_directeur.cpp.o
+.PHONY : accueil_directeur.o
+
+# target to build an object file
+accueil_directeur.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/accueil_directeur.cpp.o
+.PHONY : accueil_directeur.cpp.o
+
+accueil_directeur.i: accueil_directeur.cpp.i
+.PHONY : accueil_directeur.i
+
+# target to preprocess a source file
+accueil_directeur.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/accueil_directeur.cpp.i
+.PHONY : accueil_directeur.cpp.i
+
+accueil_directeur.s: accueil_directeur.cpp.s
+.PHONY : accueil_directeur.s
+
+# target to generate assembly for a file
+accueil_directeur.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/accueil_directeur.cpp.s
+.PHONY : accueil_directeur.cpp.s
+
 accueil_employe.o: accueil_employe.cpp.o
 .PHONY : accueil_employe.o
 
@@ -368,6 +392,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... main_autogen"
 	@echo "... main"
+	@echo "... accueil_directeur.o"
+	@echo "... accueil_directeur.i"
+	@echo "... accueil_directeur.s"
 	@echo "... accueil_employe.o"
 	@echo "... accueil_employe.i"
 	@echo "... accueil_employe.s"

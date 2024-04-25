@@ -20,6 +20,7 @@ set(SOURCES
     create_account.cpp
     accueil_user.cpp
     accueil_employe.cpp
+    accueil_directeur.cpp
     
 )
 
@@ -32,6 +33,7 @@ set(HEADERS
     create_account.hpp
     accueil_user.hpp
     accueil_employe.hpp
+    accueil_directeur.hpp
 )
 
 
