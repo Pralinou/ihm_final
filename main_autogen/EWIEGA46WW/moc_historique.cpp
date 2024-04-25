@@ -21,25 +21,25 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_History_t {
+struct qt_meta_stringdata_Historique_t {
     QByteArrayData data[1];
-    char stringdata0[8];
+    char stringdata0[11];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_History_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_Historique_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_History_t qt_meta_stringdata_History = {
+static const qt_meta_stringdata_Historique_t qt_meta_stringdata_Historique = {
     {
-QT_MOC_LITERAL(0, 0, 7) // "History"
+QT_MOC_LITERAL(0, 0, 10) // "Historique"
 
     },
-    "History"
+    "Historique"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_History[] = {
+static const uint qt_meta_data_Historique[] = {
 
  // content:
        8,       // revision
@@ -55,7 +55,7 @@ static const uint qt_meta_data_History[] = {
        0        // eod
 };
 
-void History::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void Historique::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     (void)_o;
     (void)_id;
@@ -63,30 +63,30 @@ void History::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
     (void)_a;
 }
 
-QT_INIT_METAOBJECT const QMetaObject History::staticMetaObject = { {
+QT_INIT_METAOBJECT const QMetaObject Historique::staticMetaObject = { {
     QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
-    qt_meta_stringdata_History.data,
-    qt_meta_data_History,
+    qt_meta_stringdata_Historique.data,
+    qt_meta_data_Historique,
     qt_static_metacall,
     nullptr,
     nullptr
 } };
 
 
-const QMetaObject *History::metaObject() const
+const QMetaObject *Historique::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *History::qt_metacast(const char *_clname)
+void *Historique::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_History.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_Historique.stringdata0))
         return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
 
-int History::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int Historique::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
     return _id;

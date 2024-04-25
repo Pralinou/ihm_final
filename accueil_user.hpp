@@ -1,32 +1,40 @@
-
 #ifndef ACCUEIL_HPP
 #define ACCUEIL_HPP
 
-#include <QWidget>
+#include <QMainWindow>
 #include <QLabel>
 #include <QPushButton>
+#include <QLineEdit>
 
-class Accueil_ : public QWidget {
+class Accueil : public QMainWindow
+{
     Q_OBJECT
 
 public:
-    Accueil(QWidget* parent = nullptr);
+    Accueil(QWidget *parent = nullptr);
+
+private slots:
+    void creditAccount();
+    void debitAccount();
+    void transferMoney();
 
 private:
-    double soldeCompteCourant;
-    double soldeLivretC;
+    QLabel *welcomeLabel;
+    QLabel *currentAccountLabel;
+    QLabel *savingAccountLabel;
+    QLabel *transferLabel;
 
-    QLabel* welcomeLabel;
-    QLabel* compteCourantLabel;
-    QLabel* livretCLabel;
-    QPushButton* creditButton;
-    QPushButton* debitButton;
-    QPushButton* virementButton;
+    QLineEdit *currentBalanceField;
+    QLineEdit *savingBalanceField;
 
-    void afficherSoldes();
-    void crediterCompteCourant();
-    void debiterCompteCourant();
-    void effectuerVirement();
+    QPushButton *creditButton;
+    QPushButton *debitButton;
+    QPushButton *transferButton; // Nouveau bouton pour effectuer un virement
+
+    double currentAccountBalance; // Solde du compte courant
+    double savingAccountBalance; // Solde du compte d'épargne
+
+    void updateCurrentBalanceLabel();
 };
 
-#endif // ACCUEIL_HPP
+#endif 
