@@ -19,6 +19,7 @@ set(SOURCES
     transaction.cpp
     create_account.cpp
     accueil_user.cpp
+    accueil_employe.cpp
     
 )
 
@@ -30,6 +31,7 @@ set(HEADERS
     transaction.hpp
     create_account.hpp
     accueil_user.hpp
+    accueil_employe.hpp
 )
 
 
