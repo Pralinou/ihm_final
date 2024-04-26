@@ -1,5 +1,7 @@
-CMakeFiles/main.dir/mainwindows.cpp.o: /home/user/ihm/mainwindows.cpp \
- /usr/include/stdc-predef.h /home/user/ihm/mainwindow.hpp \
+CMakeFiles/main.dir/mainwindows.cpp.o: \
+ /home/user/Documents/projects/ihm_final/mainwindows.cpp \
+ /usr/include/stdc-predef.h \
+ /home/user/Documents/projects/ihm_final/mainwindow.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \

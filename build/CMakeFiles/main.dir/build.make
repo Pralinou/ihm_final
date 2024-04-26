@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ihm
+CMAKE_SOURCE_DIR = /home/user/Documents/projects/ihm_final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ihm/build
+CMAKE_BINARY_DIR = /home/user/Documents/projects/ihm_final/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -72,114 +72,142 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: main_autogen/mocs_compilation.cpp
 CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ihm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o -MF CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o -c /home/user/ihm/build/main_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Documents/projects/ihm_final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o -MF CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o -c /home/user/Documents/projects/ihm_final/build/main_autogen/mocs_compilation.cpp
 
 CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ihm/build/main_autogen/mocs_compilation.cpp > CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Documents/projects/ihm_final/build/main_autogen/mocs_compilation.cpp > CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ihm/build/main_autogen/mocs_compilation.cpp -o CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Documents/projects/ihm_final/build/main_autogen/mocs_compilation.cpp -o CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/main.dir/historique.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/historique.cpp.o: ../historique.cpp
 CMakeFiles/main.dir/historique.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ihm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/historique.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/historique.cpp.o -MF CMakeFiles/main.dir/historique.cpp.o.d -o CMakeFiles/main.dir/historique.cpp.o -c /home/user/ihm/historique.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Documents/projects/ihm_final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/historique.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/historique.cpp.o -MF CMakeFiles/main.dir/historique.cpp.o.d -o CMakeFiles/main.dir/historique.cpp.o -c /home/user/Documents/projects/ihm_final/historique.cpp
 
 CMakeFiles/main.dir/historique.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/historique.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ihm/historique.cpp > CMakeFiles/main.dir/historique.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Documents/projects/ihm_final/historique.cpp > CMakeFiles/main.dir/historique.cpp.i
 
 CMakeFiles/main.dir/historique.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/historique.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ihm/historique.cpp -o CMakeFiles/main.dir/historique.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Documents/projects/ihm_final/historique.cpp -o CMakeFiles/main.dir/historique.cpp.s
 
 CMakeFiles/main.dir/login.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/login.cpp.o: ../login.cpp
 CMakeFiles/main.dir/login.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ihm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/login.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/login.cpp.o -MF CMakeFiles/main.dir/login.cpp.o.d -o CMakeFiles/main.dir/login.cpp.o -c /home/user/ihm/login.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Documents/projects/ihm_final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/login.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/login.cpp.o -MF CMakeFiles/main.dir/login.cpp.o.d -o CMakeFiles/main.dir/login.cpp.o -c /home/user/Documents/projects/ihm_final/login.cpp
 
 CMakeFiles/main.dir/login.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/login.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ihm/login.cpp > CMakeFiles/main.dir/login.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Documents/projects/ihm_final/login.cpp > CMakeFiles/main.dir/login.cpp.i
 
 CMakeFiles/main.dir/login.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/login.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ihm/login.cpp -o CMakeFiles/main.dir/login.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Documents/projects/ihm_final/login.cpp -o CMakeFiles/main.dir/login.cpp.s
 
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.o: ../main.cpp
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ihm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c /home/user/ihm/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Documents/projects/ihm_final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c /home/user/Documents/projects/ihm_final/main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ihm/main.cpp > CMakeFiles/main.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Documents/projects/ihm_final/main.cpp > CMakeFiles/main.dir/main.cpp.i
 
 CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ihm/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Documents/projects/ihm_final/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
 CMakeFiles/main.dir/mainwindows.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/mainwindows.cpp.o: ../mainwindows.cpp
 CMakeFiles/main.dir/mainwindows.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ihm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/mainwindows.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/mainwindows.cpp.o -MF CMakeFiles/main.dir/mainwindows.cpp.o.d -o CMakeFiles/main.dir/mainwindows.cpp.o -c /home/user/ihm/mainwindows.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Documents/projects/ihm_final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/mainwindows.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/mainwindows.cpp.o -MF CMakeFiles/main.dir/mainwindows.cpp.o.d -o CMakeFiles/main.dir/mainwindows.cpp.o -c /home/user/Documents/projects/ihm_final/mainwindows.cpp
 
 CMakeFiles/main.dir/mainwindows.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/mainwindows.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ihm/mainwindows.cpp > CMakeFiles/main.dir/mainwindows.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Documents/projects/ihm_final/mainwindows.cpp > CMakeFiles/main.dir/mainwindows.cpp.i
 
 CMakeFiles/main.dir/mainwindows.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/mainwindows.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ihm/mainwindows.cpp -o CMakeFiles/main.dir/mainwindows.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Documents/projects/ihm_final/mainwindows.cpp -o CMakeFiles/main.dir/mainwindows.cpp.s
 
 CMakeFiles/main.dir/transaction.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/transaction.cpp.o: ../transaction.cpp
 CMakeFiles/main.dir/transaction.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ihm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/transaction.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/transaction.cpp.o -MF CMakeFiles/main.dir/transaction.cpp.o.d -o CMakeFiles/main.dir/transaction.cpp.o -c /home/user/ihm/transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Documents/projects/ihm_final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/transaction.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/transaction.cpp.o -MF CMakeFiles/main.dir/transaction.cpp.o.d -o CMakeFiles/main.dir/transaction.cpp.o -c /home/user/Documents/projects/ihm_final/transaction.cpp
 
 CMakeFiles/main.dir/transaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/transaction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ihm/transaction.cpp > CMakeFiles/main.dir/transaction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Documents/projects/ihm_final/transaction.cpp > CMakeFiles/main.dir/transaction.cpp.i
 
 CMakeFiles/main.dir/transaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/transaction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ihm/transaction.cpp -o CMakeFiles/main.dir/transaction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Documents/projects/ihm_final/transaction.cpp -o CMakeFiles/main.dir/transaction.cpp.s
 
 CMakeFiles/main.dir/create_account.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/create_account.cpp.o: ../create_account.cpp
 CMakeFiles/main.dir/create_account.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ihm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/create_account.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/create_account.cpp.o -MF CMakeFiles/main.dir/create_account.cpp.o.d -o CMakeFiles/main.dir/create_account.cpp.o -c /home/user/ihm/create_account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Documents/projects/ihm_final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/create_account.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/create_account.cpp.o -MF CMakeFiles/main.dir/create_account.cpp.o.d -o CMakeFiles/main.dir/create_account.cpp.o -c /home/user/Documents/projects/ihm_final/create_account.cpp
 
 CMakeFiles/main.dir/create_account.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/create_account.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ihm/create_account.cpp > CMakeFiles/main.dir/create_account.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Documents/projects/ihm_final/create_account.cpp > CMakeFiles/main.dir/create_account.cpp.i
 
 CMakeFiles/main.dir/create_account.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/create_account.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ihm/create_account.cpp -o CMakeFiles/main.dir/create_account.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Documents/projects/ihm_final/create_account.cpp -o CMakeFiles/main.dir/create_account.cpp.s
 
 CMakeFiles/main.dir/accueil_user.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/accueil_user.cpp.o: ../accueil_user.cpp
 CMakeFiles/main.dir/accueil_user.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ihm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/accueil_user.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/accueil_user.cpp.o -MF CMakeFiles/main.dir/accueil_user.cpp.o.d -o CMakeFiles/main.dir/accueil_user.cpp.o -c /home/user/ihm/accueil_user.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Documents/projects/ihm_final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/accueil_user.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/accueil_user.cpp.o -MF CMakeFiles/main.dir/accueil_user.cpp.o.d -o CMakeFiles/main.dir/accueil_user.cpp.o -c /home/user/Documents/projects/ihm_final/accueil_user.cpp
 
 CMakeFiles/main.dir/accueil_user.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/accueil_user.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ihm/accueil_user.cpp > CMakeFiles/main.dir/accueil_user.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Documents/projects/ihm_final/accueil_user.cpp > CMakeFiles/main.dir/accueil_user.cpp.i
 
 CMakeFiles/main.dir/accueil_user.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/accueil_user.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ihm/accueil_user.cpp -o CMakeFiles/main.dir/accueil_user.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Documents/projects/ihm_final/accueil_user.cpp -o CMakeFiles/main.dir/accueil_user.cpp.s
+
+CMakeFiles/main.dir/accueil_employe.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/accueil_employe.cpp.o: ../accueil_employe.cpp
+CMakeFiles/main.dir/accueil_employe.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Documents/projects/ihm_final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/accueil_employe.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/accueil_employe.cpp.o -MF CMakeFiles/main.dir/accueil_employe.cpp.o.d -o CMakeFiles/main.dir/accueil_employe.cpp.o -c /home/user/Documents/projects/ihm_final/accueil_employe.cpp
+
+CMakeFiles/main.dir/accueil_employe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/accueil_employe.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Documents/projects/ihm_final/accueil_employe.cpp > CMakeFiles/main.dir/accueil_employe.cpp.i
+
+CMakeFiles/main.dir/accueil_employe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/accueil_employe.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Documents/projects/ihm_final/accueil_employe.cpp -o CMakeFiles/main.dir/accueil_employe.cpp.s
+
+CMakeFiles/main.dir/accueil_directeur.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/accueil_directeur.cpp.o: ../accueil_directeur.cpp
+CMakeFiles/main.dir/accueil_directeur.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Documents/projects/ihm_final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/accueil_directeur.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/accueil_directeur.cpp.o -MF CMakeFiles/main.dir/accueil_directeur.cpp.o.d -o CMakeFiles/main.dir/accueil_directeur.cpp.o -c /home/user/Documents/projects/ihm_final/accueil_directeur.cpp
+
+CMakeFiles/main.dir/accueil_directeur.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/accueil_directeur.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Documents/projects/ihm_final/accueil_directeur.cpp > CMakeFiles/main.dir/accueil_directeur.cpp.i
+
+CMakeFiles/main.dir/accueil_directeur.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/accueil_directeur.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Documents/projects/ihm_final/accueil_directeur.cpp -o CMakeFiles/main.dir/accueil_directeur.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -190,7 +218,9 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/mainwindows.cpp.o" \
 "CMakeFiles/main.dir/transaction.cpp.o" \
 "CMakeFiles/main.dir/create_account.cpp.o" \
-"CMakeFiles/main.dir/accueil_user.cpp.o"
+"CMakeFiles/main.dir/accueil_user.cpp.o" \
+"CMakeFiles/main.dir/accueil_employe.cpp.o" \
+"CMakeFiles/main.dir/accueil_directeur.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -203,12 +233,14 @@ main: CMakeFiles/main.dir/mainwindows.cpp.o
 main: CMakeFiles/main.dir/transaction.cpp.o
 main: CMakeFiles/main.dir/create_account.cpp.o
 main: CMakeFiles/main.dir/accueil_user.cpp.o
+main: CMakeFiles/main.dir/accueil_employe.cpp.o
+main: CMakeFiles/main.dir/accueil_directeur.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 main: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 main: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/ihm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/Documents/projects/ihm_final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -220,6 +252,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/user/ihm/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ihm /home/user/ihm /home/user/ihm/build /home/user/ihm/build /home/user/ihm/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/Documents/projects/ihm_final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/Documents/projects/ihm_final /home/user/Documents/projects/ihm_final /home/user/Documents/projects/ihm_final/build /home/user/Documents/projects/ihm_final/build /home/user/Documents/projects/ihm_final/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

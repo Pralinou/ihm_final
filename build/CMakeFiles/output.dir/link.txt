@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/output.dir/account.cpp.o CMakeFiles/output.dir/historique.cpp.o CMakeFiles/output.dir/login.cpp.o CMakeFiles/output.dir/main.cpp.o CMakeFiles/output.dir/mainwindows.cpp.o CMakeFiles/output.dir/transaction.cpp.o -o output 

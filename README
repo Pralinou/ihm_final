@@ -1,9 +1,18 @@
-sudo apt install -y qtcreator qtbase5-dev qt5-qmake cmake
 
+
+```bash
+sudo apt install -y qtcreator qtbase5-dev qt5-qmake cmake
+```
+
+
+
+```bash
+mkdir build
 cd build
+cmake ..
 make
 ./main
-
+```
 
 
 

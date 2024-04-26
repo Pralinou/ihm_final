@@ -1,5 +1,5 @@
-/home/user/ihm/build/main_autogen/EWIEGA46WW/moc_transaction.cpp: /home/user/ihm/transaction.hpp \
-  /home/user/ihm/build/main_autogen/moc_predefs.h \
+/home/user/Documents/projects/ihm_final/build/main_autogen/EWIEGA46WW/moc_transaction.cpp: /home/user/Documents/projects/ihm_final/transaction.hpp \
+  /home/user/Documents/projects/ihm_final/build/main_autogen/moc_predefs.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

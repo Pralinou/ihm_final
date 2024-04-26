@@ -1,6 +1,6 @@
-/home/user/ihm/build/main_autogen/EWIEGA46WW/moc_login.cpp: /home/user/ihm/login.hpp \
-  /home/user/ihm/build/main_autogen/moc_predefs.h \
-  /home/user/ihm/create_account.hpp \
+/home/user/Documents/projects/ihm_final/build/main_autogen/EWIEGA46WW/moc_login.cpp: /home/user/Documents/projects/ihm_final/login.hpp \
+  /home/user/Documents/projects/ihm_final/build/main_autogen/moc_predefs.h \
+  /home/user/Documents/projects/ihm_final/create_account.hpp \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
